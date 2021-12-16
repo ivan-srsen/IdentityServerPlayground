@@ -20,7 +20,22 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "5069226a-19f1-4fb5-9f99-f50ca740fd99": {
+      "ProjectGuid": "5069226a-19f1-4fb5-9f99-f50ca740fd99",
+      "DisplayName": "IdentityServerPlayground",
+      "ColorIndex": 3
+    },
+    "fe1343b9-379e-4ae9-9ade-1aacf45a4166": {
+      "ProjectGuid": "fe1343b9-379e-4ae9-9ade-1aacf45a4166",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 4
+    },
+    "b15ad22c-0b10-43b1-8bfb-07ed083e1e90": {
+      "ProjectGuid": "b15ad22c-0b10-43b1-8bfb-07ed083e1e90",
+      "DisplayName": "Api",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }
