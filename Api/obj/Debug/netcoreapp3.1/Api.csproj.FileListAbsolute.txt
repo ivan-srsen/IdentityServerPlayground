@@ -26,3 +26,6 @@ C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreap
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\obj\Debug\netcoreapp3.1\Api.csproj.CopyComplete
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreapp3.1\IdentityModel.AspNetCore.OAuth2Introspection.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\Api\bin\Debug\netcoreapp3.1\IdentityServer4.AccessTokenValidation.dll

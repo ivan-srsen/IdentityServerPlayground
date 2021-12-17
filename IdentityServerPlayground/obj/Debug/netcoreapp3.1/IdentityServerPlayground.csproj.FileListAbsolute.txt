@@ -61,3 +61,17 @@ C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlaygroun
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.RazorAssemblyInfo.cache
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.RazorAssemblyInfo.cs
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.TagHelpers.input.cache
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.TagHelpers.output.cache
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.RazorCoreGenerate.cache
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\Razor\Views\Account\RegistrationSuccess.cshtml.g.cs
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.RazorTargetAssemblyInfo.cs
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\IdentityServerPlayground.Views.dll
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\bin\Debug\netcoreapp3.1\IdentityServerPlayground.Views.pdb
+C:\Users\IvanSrsen\source\repos\IdentityServerPlayground\IdentityServerPlayground\obj\Debug\netcoreapp3.1\IdentityServerPlayground.Views.pdb

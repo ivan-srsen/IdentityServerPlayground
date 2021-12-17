@@ -4,8 +4,11 @@
 
 using IdentityServer4.EntityFramework.DbContexts;
 using IdentityServer4.EntityFramework.Mappers;
+using IdentityServerPlayground.Contexts;
+using IdentityServerPlayground.Users;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,10 +27,19 @@ namespace IdentityServerPlayground
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
+
             var migrationsAssembly = typeof(Startup).Assembly.GetName().Name;
             const string connectionString = "Data Source=DESKTOP-PVR24IJ;Initial Catalog=IdentityServerPlayground;Integrated Security=True";
 
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
             var builder = services.AddIdentityServer()
+                .AddAspNetIdentity<ApplicationUser>()
                 .AddConfigurationStore(options =>
                 {
                     options.ConfigureDbContext = b => b.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly));
@@ -54,15 +66,16 @@ namespace IdentityServerPlayground
             // uncomment if you want to add MVC
             //app.UseStaticFiles();
             //app.UseRouting();
-            
+            app.UseRouting();
+
             app.UseIdentityServer();
 
-            // uncomment, if you want to add MVC
-            //app.UseAuthorization();
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapDefaultControllerRoute();
-            //});
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
 
         private void InitializeDatabase(IApplicationBuilder app)
@@ -97,6 +110,16 @@ namespace IdentityServerPlayground
                     {
                         context.ApiScopes.Add(resource.ToEntity());
                     }
+                    context.SaveChanges();
+                }
+
+                if (!context.ApiResources.Any())
+                {
+                    foreach(var resource in Config.ApiResources)
+                    {
+                        context.ApiResources.Add(resource.ToEntity());
+                    }
+
                     context.SaveChanges();
                 }
             }
